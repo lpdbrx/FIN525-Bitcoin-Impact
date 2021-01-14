@@ -1,6 +1,6 @@
 # Bitcoin impact on several major cryptocurrencies
 
-Report can be seen in https://www.overleaf.com/read/mmvrtcgcfwsk
+Report can be seen by following this link : https://www.overleaf.com/read/xmhtpcwknydz
 
 ## Abstract
 In the first part of the analysis where we used two different methods to analyze the correlation between cryptos and Bitcoin, we have convincing results showing a clear correlation using low frequency data. We have also seen that some external factors such as a worldwide lockdown period must have had an impact on the cryptos market because they were found to be more correlated than usual. Then we analyzed a period when cryptos were decorrelated with Bitcoin. Using Hayashi Yoshida's method, which allowed us to analyze the correlation at the highest possible frequency - tick-by-tick data - by getting rid of the problem of asynchronous trading, we were able to highlight anomalies in the returns that caused this decorrelation. Unfortunately, we cannot overcome the Epps Effect in this high-frequency analysis. 
