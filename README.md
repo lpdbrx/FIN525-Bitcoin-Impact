@@ -3,13 +3,11 @@
 Report can be seen in https://www.overleaf.com/read/mmvrtcgcfwsk
 
 ## Abstract
+In the first part of the analysis where we used two different methods to analyze the correlation between cryptos and Bitcoin, we have convincing results showing a clear correlation using low frequency data. We have also seen that some external factors such as a worldwide lockdown period must have had an impact on the cryptos market because they were found to be more correlated than usual. Then we analyzed a period when cryptos were decorrelated with Bitcoin. Using Hayashi Yoshida's method, which allowed us to analyze the correlation at the highest possible frequency - tick-by-tick data - by getting rid of the problem of asynchronous trading, we were able to highlight anomalies in the returns that caused this decorrelation. Unfortunately, we cannot overcome the Epps Effect in this high-frequency analysis. 
 
-Classical currencies are generally fairly correlated with the price of some commodities. For example, the Australian dollar is known to be a currency sensitive to basic products such as iron ore, or the Russian ruble is related to oil. In addition to being correlated to these commodities, currencies are sensitive to the US dollar rate. It's a little bit the same system we find with cryptomoney. Each cryptomoney has its own utility and specificities. For example, Ethereum was one of the first cryptomoney systems to offer smart contracts, a way of programming the blockchain to be used in new contexts (securing a transparent agreement between two parties, automating payment and eliminating the risk of non-payment, reducing intermediate costs in the development, monitoring and conclusion of a contract...). Another example is Ripple, which aims to enable secure, instantaneous and almost free global financial transactions of any size without chargebacks. The value of these cryptomonnages varies according to the utility they have at a given moment but also varies according to the price of Bitcoin, which is more speculative. 
-    
-The current health crisis due to the Covid-19 epidemic raises doubts about a financial crisis in the coming months. This downturn could potentially be beneficial to cryptomarkets. In this context, our goal is to analyze the evolution of Bitcoin and its impact on several other cryptocurrencies in order to better understand this market. It has been shown that the price of many of the major cryptomoney systems is largely based on the Bitcoin price. Since all these currencies have been fluctuating along with Bitcoin for years, we decided to first calculate some correlation comparisons to see exactly how much of a hold BTC commands. 
-    
-    
-    In a second step, we will turn to the analysis of Bitcoin flash crashes and how does it affect other cryptocurrencies.
+In the second part of the analysis, we quantified cryptocurrencies' trades influence over their own price and others' using response functions. The results weren't as concluding as we would have thought, but still, judging from our analysis and observations, we can affirm that cryptocurrencies do influence each other's price by trading. In particular, BTC's trades do have an influence over most of the studied cryptocurrencies, even in the long run. Finally, we have seen that extreme conditions such as flash crashes in the world of cryptocurrencies is reflected by extreme behaviour of these functions.
+
+In the future, we could run the same analysis with data that is less aggregated, which could lead to results that are more granular and potentially a better reflection of the reality. Moreover, regarding the work done in Section 3, we could introduce the number of trades into the response functions in order to analyze response functions not only as functions of the cryptocurrency's price but also as functions of the cryptocurrency's activity. This may lead to new results, and meaningful insights.
 
 ![alt text](https://github.com/leobouraux/FIN525-Bitcoin-Impact/blob/main/report/images/crypto.png?raw=true)
 
@@ -19,5 +17,7 @@ The current health crisis due to the Covid-19 epidemic raises doubts about a fin
 
 ### 2. Correlation Analysis
 
-### 3. Flash Crash Analysis
+### 3. Response Functions Analysis
+
+### 4. Conclusion and Future Work
 
